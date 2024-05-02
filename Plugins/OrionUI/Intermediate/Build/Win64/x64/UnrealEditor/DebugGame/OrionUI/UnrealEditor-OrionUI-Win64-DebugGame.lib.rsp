@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OrionUI-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Toad\Documents\Unreal Projects\Orion 5.3\Intermediate\Build\Win64\x64\OrionEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.Cpp17.InclOrderUnreal5_1.h.obj"
+"C:\Users\Toad\Documents\Unreal Projects\Orion 5.3\Plugins\OrionUI\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OrionUI\Module.OrionUI.cpp.obj"
+"C:\Users\Toad\Documents\Unreal Projects\Orion 5.3\Plugins\OrionUI\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OrionUI\Default.rc2.res"
+/OUT:"C:\Users\Toad\Documents\Unreal Projects\Orion 5.3\Plugins\OrionUI\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OrionUI\UnrealEditor-OrionUI-Win64-DebugGame.lib"

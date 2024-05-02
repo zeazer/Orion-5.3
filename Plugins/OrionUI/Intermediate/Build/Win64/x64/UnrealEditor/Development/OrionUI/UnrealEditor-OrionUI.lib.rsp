@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OrionUI.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Dennis\Documents\Games\Orion 5.3\Intermediate\Build\Win64\x64\OrionEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp17.InclOrderUnreal5_1.h.obj"
+"C:\Users\Dennis\Documents\Games\Orion 5.3\Plugins\OrionUI\Intermediate\Build\Win64\x64\UnrealEditor\Development\OrionUI\Module.OrionUI.cpp.obj"
+"C:\Users\Dennis\Documents\Games\Orion 5.3\Plugins\OrionUI\Intermediate\Build\Win64\x64\UnrealEditor\Development\OrionUI\Default.rc2.res"
+/OUT:"C:\Users\Dennis\Documents\Games\Orion 5.3\Plugins\OrionUI\Intermediate\Build\Win64\x64\UnrealEditor\Development\OrionUI\UnrealEditor-OrionUI.lib"
