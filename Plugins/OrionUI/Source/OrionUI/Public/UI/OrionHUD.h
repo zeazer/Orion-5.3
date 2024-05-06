@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
 #include "UI/Widgets/OrionMenuWidget.h"
+#include "UI/Controllers/OrionUIControllerBase.h"
 #include "Blueprint/UserWidgetPool.h"
 #include "OrionHUD.generated.h"
 
@@ -36,7 +37,7 @@ public:
 
 	virtual UObject* GetModel();
 
-	UOrionUIControllerBase* RegisterUIController(TSubclassOf<UOrionUIControllerBase> UIControllerClass);
+	class UOrionUIControllerBase* RegisterUIController(TSubclassOf<UOrionUIControllerBase> UIControllerClass);
 
 	class UOrionUIControllerBase* GetUIController(TSubclassOf<UOrionUIControllerBase> UIControllerClass);
 
